@@ -4,17 +4,17 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
-export const siteTitle = 'Next.js Sample Website'
+const name = 'Skidee'
+export const siteTitle = 'Skidee'
 
 export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" sizes="16x16"></link>
         <meta
           name="description"
-          content="Learn how to build a personal website using Next.js"
+          content="My Personal Website :)"
         />
         <meta
           property="og:image"
