@@ -14,7 +14,7 @@ export default function Home({ allPostsData }) {
       <section className={utilStyles.headingMd}>
         {/* <p>Hi, I'm Skidee</p> */}
         <p>Hi, I'm Skidee. 
-          <br></br>
+          {/* <br></br> */}
           I like making random stuff and learning new things :)
         </p>
         
