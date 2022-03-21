@@ -52,7 +52,8 @@ bot.on('ready', () => {
   console.log('Your Bot is now Online.')
   let activities = [`chill gang`, `with the gang`, `with the gang`   ],i = 0;
 
-  setInterval(() => bot.user.setActivity(`${activities[i++ %  activities.length]}`,  {type:"STREAMING",url:"https://www.youtube.com/watch?v=DWcJFNfaw9c"  }), 5000)
+  setInterval(() => bot.user.setActivity(`${activities[i++ %  activities.length]}`,  
+  {type:"STREAMING",url:"https://www.youtube.com/watch?v=DWcJFNfaw9c"  }), 5000)
 
 )}
 ```
