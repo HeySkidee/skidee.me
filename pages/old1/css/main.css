@@ -1,0 +1,117 @@
+#showcase{
+	text-align: center;
+	text-underline-position: center;
+	background:url("../imgs/1.jpeg");
+	color: white;
+	height:100vh;
+	background-position: center;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.font{
+
+	position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: 'Red Rose', cursive;
+
+}
+
+.navbar {
+  text-align: center;
+  color: #000000;
+  background: rgba(0, 0, 0, 0.911);
+  background-color: rgba(255, 255, 255, 0.178);
+  backdrop-filter: blur(20px);
+}
+
+.navbar-brand{
+  letter-spacing: 3px;
+}
+
+.demo a {
+  position: absolute;
+  /* position: relative; */
+  left: 46%;
+  top: 80%;
+  z-index: 2;
+  display: inline-block;
+  -webkit-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  color: #ffffff;
+  font: normal 700 20px/1 'Montserrat', sans-serif;
+  letter-spacing: .1em;
+  text-decoration: none;
+  transition: opacity .3s;
+}
+
+.demo a:hover {
+  opacity: .5;
+}
+
+#showcase a {
+  padding-top: 70px;
+}
+
+#showcase a span {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
+  border-left: 1px solid rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(255, 255, 255);
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  -webkit-animation: sdb05 1.5s infinite;
+  animation: sdb05 1.5s infinite;
+  box-sizing: border-box;
+}
+
+@-webkit-keyframes sdb05 {
+  0% {
+      -webkit-transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      -webkit-transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+  }
+}
+
+@keyframes sdb05 {
+  0% {
+      transform: rotate(-45deg) translate(0, 0);
+      opacity: 0;
+  }
+
+  50% {
+      opacity: 1;
+  }
+
+  100% {
+      transform: rotate(-45deg) translate(-20px, 20px);
+      opacity: 0;
+  }
+}
+
+
+
+.footer {
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: center;
+  
+}
