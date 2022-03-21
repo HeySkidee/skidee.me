@@ -12,7 +12,6 @@ export default function Home({ allPostsData }) {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        {/* <p>Hi, I'm Skidee</p> */}
         <p>
           Hi, I'm Skidee. I like making random stuff and learning new things :)
         </p>
