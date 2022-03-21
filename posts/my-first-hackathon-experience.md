@@ -1,5 +1,5 @@
 ---
-title: "My team just got selected in internal campus hackathon.."
+title: "My team just got selected in internal campus hackathon..."
 date: "2022-03-20"
 ---
 ### My team got selected in internal campus hackathon for Smart India Hackathon team submission. This was my first time leading a team for a hackathon here is what I learned:
