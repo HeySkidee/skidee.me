@@ -11,7 +11,13 @@ export default function Layout({ children, home }) {
   return (
     <div className={styles.container}>
       <Head>
-        <link rel="icon" href="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" sizes="16x16"></link>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta property="og:description" content="My Personal Website :)" />
+        <meta property="og:url" content="https://skidee.me" />
+        <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" />
+        <meta name="theme-color" content="#bbf1ff"/>
+                
+        {/* <link rel="icon" href="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" sizes="16x16"></link>
         <meta
           name="description"
           content="My Personal Website :)"
@@ -23,7 +29,8 @@ export default function Layout({ children, home }) {
           )}.png?theme=light&md=0&fontSize=75px&images=https%3A%2F%2Fassets.zeit.co%2Fimage%2Fupload%2Ffront%2Fassets%2Fdesign%2Fnextjs-black-logo.svg`}
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:card" content="summary_large_image" /> */}
+
       </Head>
       <header className={styles.header}>
         {home ? (
