@@ -16,7 +16,7 @@ date: "2022-03-20"
     - Rules to build a team: 6 members at max are allowed, at least one female candidate is mandatory.
     - Discuss about SIH with your friends. our mindset behind participating was to learn and build something. Instead of worrying about winning or losing we were focusing on building something useful and working.
     - Select people who are genuinely interested, have some technical or presentation skills or are willing to learn things to work on the problem.
-    - After building the team, selecting a member as the team leader is important. The team leader should have good presentation skills, knowledge about the project and is ready to take responsibility because presenting, answering the cross questions done by the judges is important.
+    - After building the team, selecting a member as the team leader is important. The team leader should have good presentation skills, knowledge about the project and is ready to take responsibility because presenting, answering the cross questions done by the judges is important. 
 2. Selecting a good problem:
     - Every member of our team searched for problems which they find interesting, doable.
         
