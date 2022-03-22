@@ -1,4 +1,4 @@
-window.location.href = 'https://discord.gg/JcPS3VD8CP';
+// window.location.href = 'https://discord.gg/JcPS3VD8CP';
 // import { Route, Redirect } from 'react-router'
 
 // <Route exact path="/" render={() => (
