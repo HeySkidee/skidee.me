@@ -16,8 +16,8 @@ export default function Layout({ children, home }) {
         <meta property="og:url" content="https://skidee.me" />
         <meta property="twitter:image" content="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" />
         <meta name="theme-color" content="#bbf1ff"/>
-                
-        {/* <link rel="icon" href="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" sizes="16x16"></link>
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/716523839634407436/913157712722923570/nice.png" type="image/gif" sizes="16x16"></link>        
+        {/* 
         <meta
           name="description"
           content="My Personal Website :)"
