@@ -11,3 +11,5 @@ function win10(){
     )
   
 };
+
+export default win10;
