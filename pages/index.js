@@ -17,6 +17,12 @@ export default function Home({ allPostsData }) {
           <br></br>
           I like making random stuff and learning new things :)
         </p>
+        <p>
+          I'm active on <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, I daily tweet about my learnings throughout the process and some cool resources.
+          <br></br>
+          Checkout my projects on <a href="https://github.com/HeySkidee" target="_blank">Github</a>.
+          And feel free to join the community on <a href='https://skidee.me/discord' target="_blank">Discord</a>.
+        </p>
       </section>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
