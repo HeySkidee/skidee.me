@@ -12,4 +12,4 @@ function lmaodead(){
     )
 };
 
-export default HeySkidee;
+export default lmaodead;
