@@ -39,7 +39,15 @@ export default function Home({ allPostsData }) {
             </li>
           ))}
         </ul>
+
+        <h2 className={utilStyles.headingLg}>More</h2>
+        <p>
+          <a href='https://skidee.me/HeySkidee'>YouTube</a>, <a href='https://www.instagram.com/HeySkidee'>Instagram</a>, <a href='https://soundcloud.com/HeySkidee'>SoundCloud</a>.
+        </p>
+
+
       </section>
+
     </Layout>
   )
 }
