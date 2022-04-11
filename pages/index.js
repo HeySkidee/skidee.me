@@ -42,7 +42,7 @@ export default function Home({ allPostsData }) {
 
         <h2 className={utilStyles.headingLg}>More stuff</h2>
         <p>
-          <a href='https://skidee.me/HeySkidee'>YouTube</a>, <a href='https://www.instagram.com/HeySkidee'>Instagram</a>, <a href='https://soundcloud.com/HeySkidee'>SoundCloud</a>.
+          <a href='https://skidee.me/HeySkidee' target="_blank">YouTube</a>, <a href='https://www.instagram.com/HeySkidee' target="_blank">Instagram</a>, <a href='https://soundcloud.com/HeySkidee' target="_blank">SoundCloud</a>.
         </p>
 
 
