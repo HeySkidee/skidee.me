@@ -1,4 +1,4 @@
-<!-- ---
+---
 title: "My react native journey"
 date: "2022-03-21"
 ---
@@ -26,4 +26,4 @@ date: "2022-03-21"
 ## [Day 5](https://twitter.com/HeySkidee/status/1507423532904779777?s=20&t=DTHfExGCx3LZnioTEA7Dyw)
 
 - fsdfcsd
-- dsfcwdsf -->
+- dsfcwdsf

@@ -1,6 +1,6 @@
 ---
 title: "How I made this blogging website in 5 mins!"
-date: "2022-03-21"
+date: "2022-04-02"
 ---
 
 This blog is made using Next.js
