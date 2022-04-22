@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
           I like making random stuff and learning new things :)
         </p>
         <p>
-          I'm active on <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, I tweet about my learnings throughout the process and some cool resources.
+          I'm active on <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, I tweet about my learnings throughout the process and share some cool resources.
           <br></br>
           Checkout my projects on <a href="https://github.com/HeySkidee" target="_blank">Github</a>.
           And feel free to join the community on <a href='https://skidee.me/discord' target="_blank">Discord</a>.
