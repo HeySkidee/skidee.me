@@ -15,16 +15,14 @@ I'll be covering everything in a concise away. other than that you can take a lo
 
 - open your terminal, cd into the directory you’d like to create the app in, and run the following command:
 
-```
- npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/basics-final"
-```
+  **npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/basics-final"**
 
-after running the command a new folder named `nextjs-blog` will appear.
+after running the command a new folder named **nextjs-blog** will appear.
 
 ### Step 3 :
 
-- cd into that folder using `cd nextjs-blog` command
-- Then, run `npm run dev` command to run the app.
+- cd into that folder using **cd nextjs-blog** command
+- Then, run **npm run dev** command to run the app.
 
 to check if its working. Open [http://localhost:3000](http://localhost:3000/) from your browser.
 
