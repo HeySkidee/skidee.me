@@ -13,9 +13,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi, I'm Skidee. 
-          <br></br>
-          I like making random stuff and learning new things :)
+
+
+         I like making random stuff and learning new things.
         </p>
         {/* <p>
           I'm active on <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, I tweet about my learnings throughout the process and share some cool resources.
