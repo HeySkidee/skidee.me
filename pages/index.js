@@ -15,7 +15,7 @@ export default function Home({ allPostsData }) {
         <p>
 
 
-         I like making random stuff and learning new things :)
+          I like making random stuff and learning new things
         </p>
         {/* <p>
           I'm active on <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, I tweet about my learnings throughout the process and share some cool resources.
@@ -40,9 +40,11 @@ export default function Home({ allPostsData }) {
           ))}
         </ul>
 
-        <h2 className={utilStyles.headingLg}>More stuff</h2>
+        <h2 className={utilStyles.headingLg}>Links</h2>
         <p>
-          <a href='https://skidee.me/HeySkidee' target="_blank">YouTube</a>, <a href="https://github.com/HeySkidee" target="_blank">Github</a>, <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, <a href='https://www.instagram.com/HeySkidee' target="_blank">Instagram</a>, <a href='https://skidee.me/discord' target="_blank">Discord</a>, <a href='https://soundcloud.com/HeySkidee' target="_blank">SoundCloud</a>.
+          <a href="https://github.com/HeySkidee" target="_blank">Github</a>, <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, <a href='https://skidee.me/HeySkidee' target="_blank">YouTube</a>
+
+          {/* <a href="https://github.com/HeySkidee" target="_blank">Github</a>, <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, <a href='https://www.instagram.com/HeySkidee' target="_blank">Instagram</a>, <a href='https://skidee.me/HeySkidee' target="_blank">YouTube</a>, <a href='https://soundcloud.com/HeySkidee' target="_blank">SoundCloud</a>, <a href='https://skidee.me/discord' target="_blank">Discord</a>. */}
         </p>
 
 
