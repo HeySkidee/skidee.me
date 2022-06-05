@@ -1,4 +1,4 @@
-function HeySkidee() {
+function Aszu() {
     return (
         <div>
             <meta charset="UTF-8" />
@@ -12,4 +12,4 @@ function HeySkidee() {
     )
 };
 
-export default HeySkidee;
+export default Aszu;
