@@ -5,8 +5,6 @@ date: "2022-04-14"
 
 This blog is made using Next.js
 
-I'll be covering everything in a concise away. other than that you can take a look at the [full tutorial](https://nextjs.org/learn/basics/create-nextjs-app) as well.
-
 ### Step 1 :
 
 - Install [Node.js](https://nodejs.org/en/) (version 10.13 or later) 
@@ -75,6 +73,8 @@ We will be hosting our blog using github and vercel.
 - You can also add a custom domain by going to Project settings -> Domains
   
   ![adding custom domain](https://cdn.discordapp.com/attachments/716523839634407436/964087222955548682/unknown.png)
+
+I covered everything in a concise away. other than that you can take a look at the [full tutorial](https://nextjs.org/learn/basics/create-nextjs-app) as well.
 
 ---
 
