@@ -74,7 +74,7 @@ We will be hosting our blog using github and vercel.
   
   ![adding custom domain](https://cdn.discordapp.com/attachments/716523839634407436/964087222955548682/unknown.png)
 
-I covered everything in a concise away. other than that you can take a look at the [full tutorial](https://nextjs.org/learn/basics/create-nextjs-app) as well.
+I covered everything in a concise way. other than that you can take a look at the [full tutorial](https://nextjs.org/learn/basics/create-nextjs-app) as well.
 
 ---
 
