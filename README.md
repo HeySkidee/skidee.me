@@ -4,6 +4,7 @@
 - Win10 Optimization Guide: https://skidee.me/win10
 - Discord: https://skidee.me/discord
 - Hey Skidee: https://skidee.me/HeySkidee
+- Songs playlist (YT): https://skidee.me/music
 
 <hr width="30%">
 
