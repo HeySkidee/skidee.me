@@ -11,3 +11,4 @@
 - Tutel Meme: https://skidee.me/tutel
 - nuxerd/n: https://skidee.me/n
 - Aszu: https://skidee.me/Aszu
+- Beats: https://skidee.me/beats
