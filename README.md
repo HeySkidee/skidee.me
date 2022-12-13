@@ -5,6 +5,7 @@
 - Discord: https://skidee.me/discord
 - Hey Skidee: https://skidee.me/HeySkidee
 - Songs playlist (YT): https://skidee.me/music
+- Apple Music: https://skidee.me/itunes
 
 <hr width="30%">
 
