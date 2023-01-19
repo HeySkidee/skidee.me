@@ -13,3 +13,5 @@
 - nuxerd/n: https://skidee.me/n
 - Aszu: https://skidee.me/Aszu
 - Beats: https://skidee.me/beats
+- Jet Accounts: https://skide.me/jet
+- Sauce: https://skidee.me/s
