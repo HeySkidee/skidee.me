@@ -12,7 +12,7 @@
 
 - Tutel Meme: https://skidee.me/tutel
 - nuxerd/n: https://skidee.me/n
-- Jet Accounts: https://skide.me/jet
+- Jet Accounts: https://skidee.me/jet
 - Discord Jet: https://skidee.me/emojis
 - Aszu: https://skidee.me/Aszu
 - Beats: https://skidee.me/beats
