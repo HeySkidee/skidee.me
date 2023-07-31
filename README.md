@@ -17,4 +17,4 @@
 - Discord Jet: https://skidee.me/emojis
 - Aszu: https://skidee.me/Aszu
 - Beats: https://skidee.me/beats
-- Learning resources: https://skidee.me/s
+- Learning resources / the sauce: https://skidee.me/s
