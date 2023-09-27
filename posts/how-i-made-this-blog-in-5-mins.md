@@ -80,4 +80,4 @@ I covered everything in a concise way. other than that you can take a look at th
 
 Facing any issues?
 
-Feel free to contact me on [twitter](https://twitter.com/HeySkidee) or [discord](https://skidee.me/discord).
+Feel free to contact me on [twitter](https://twitter.com/HeySkidee).
