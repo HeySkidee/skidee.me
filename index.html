@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>24 Nov</title>
+    <title>Refresh</title>
     <style>
         body {
             margin: 0;
@@ -38,9 +38,23 @@
             document.body.style.backgroundImage = `url('${randomGifUrl}')`;
         }
 
-        window.onload = setRandomGif;
+        function updateTitle() {
+            document.title = document.hidden ? '24 Nov' : 'Refresh';
+        }
 
-        document.body.addEventListener('click', setRandomGif);
+        window.onload = function () {
+            setRandomGif();
+            updateTitle();
+        };
+
+        document.body.addEventListener('click', function () {
+            setRandomGif();
+            updateTitle();
+        });
+
+        document.addEventListener('visibilitychange', function () {
+            updateTitle();
+        });
     </script>
 </body>
 </html>
