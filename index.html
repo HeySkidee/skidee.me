@@ -1,60 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refresh</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-color: #000;
-        }
+ <link rel="preconnect" href="https://fonts.googleapis.com" />
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+ <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+ <title>Skidee</title>
 
-        img {
-            width: 100vw;
-            height: 100vh;
-            object-fit: cover;
-        }
-    </style>
+ <style>
+ @font-face {
+ font-family: "Press Start 2P", sans-serif;
+ src: url('Ambient.ttf');
+ }
+
+ body {
+ background-image: url('ambience.gif');
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+ height: 100vh;
+ margin: 0;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: filter 0.5s; /* Add transition effect */
+}
+
+ #comingSoon {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-60%, -50%);
+ text-align: center;
+ color: rgba(255, 255, 255, 0.8); /* make the text a bit transparent */
+ font-size: 12px; /* make the text smaller */
+ font-family: "Press Start 2P", sans-serif;; /* use a modular font */
+ text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+ /* animation: flow 5s infinite; increase the flow a bit */
+ }
+
+ #entryButton {
+ position: absolute;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ margin: 0px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ text-align: center;
+ color: rgba(255, 255, 255, 0.8); /* make the text a bit transparent */
+ font-size: 23px; /* make the text smaller */
+ font-family: "Press Start 2P", sans-serif; /* use a modular font */
+ text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.5);
+ backdrop-filter: blur(10px); /* blur the background */
+}
+
+
+ #content {
+ display: none;
+ }
+
+ .container {
+ text-align: center;
+ }
+ </style>
 </head>
 <body>
-    <script>
-        const gifUrls = [
-            "https://i.gifer.com/3Qty.gif",
-            "https://i.gifer.com/g09Y.gif",
-            "https://i.gifer.com/1MFw.gif",
-            "https://i.gifer.com/YPSN.gif",
-            "https://i.gifer.com/OK6K.gif",
-            "https://i.gifer.com/x0.gif"
-        ];
+ <div class="container">
+ <p id="entryButton" class="enter">Click To Enter</p>
+ </div>
 
-        function getRandomGif() {
-            return gifUrls[Math.floor(Math.random() * gifUrls.length)];
-        }
+ <div id="content">
+ <div id="comingSoon">
+     <h1>COMING SOON</h1>
+ </div>
+ <audio id="audio" controls autoplay loop style="display: none">
+     <source src="skidee-xyz.mp3" type="audio/mp3" />
+     Your browser does not support the audio tag.
+ </audio>
+ </div>
 
-        function setRandomGif() {
-            const randomGifUrl = getRandomGif();
-            document.body.style.backgroundImage = `url('${randomGifUrl}')`;
-        }
+ <script>
+ document.addEventListener("DOMContentLoaded", function () {
+ var audio = document.getElementById("audio");
 
-        function updateTitle() {
-            document.title = document.hidden ? '24 Nov' : 'Refresh';
-        }
+ // Function to hide the entry button and show content
+ function showContent() {
+  var entryButton = document.getElementById("entryButton");
+  var content = document.getElementById("content");
 
-        window.onload = function () {
-            setRandomGif();
-            updateTitle();
-        };
+  entryButton.style.opacity = 0;
+  entryButton.style.pointerEvents = "none"; // Disable further clicks
+  setTimeout(function () {
+    entryButton.style.display = "none";
+    content.style.display = "block";
+    audio.play();
+    document.body.style.overflow = "auto"; // Show scrollbar
+  }, 500); // Delay for a smooth transition
+ }
 
-        document.body.addEventListener('click', function () {
-            setRandomGif();
-            updateTitle();
-        });
+ // Add event listener to the entry button
+ document
+  .getElementById("entryButton")
+  .addEventListener("click", showContent);
 
-        document.addEventListener('visibilitychange', function () {
-            updateTitle();
-        });
-    </script>
+ // Add blur class to the body when the page loads
+ document.body.classList.add("blur");
+
+});
+ </script>
 </body>
 </html>
