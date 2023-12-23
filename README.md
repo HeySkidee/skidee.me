@@ -1,9 +1,9 @@
-Run this project locally by following these steps:
+### Run this project locally by following these steps:
 
 1. Clone the repository: `git clone https://github.com/HeySkidee/skidee.me.git`
 2. Navigate to the project directory: `cd skidee.me`
 3. Install dependencies: `npm install`
-4. `npm run dev` to run the app in the development mode. 
+4. `npm run dev` to run the app
 5. Open http://localhost:3000 to view it in your browser.
 
 <hr width="30%">
