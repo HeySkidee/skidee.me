@@ -10,7 +10,7 @@
 
 ### Active Links: 
 
-- Website: [skidee.me](https://HeySkidee.now.sh)
+- Website: [skidee.me](https://Skidee.now.sh)
 - Resume: [skidee.me/resume]()
 - Win10 Optimization Guide: [/win10](https://skidee.notion.site/Ultimate-Win10-Optimization-Guide-5b4572fd4e17454dbde8375bae1829d1?pvs=74)
 - Discord: [/discord](https://discord.com/invite/JcPS3VD8CP)
