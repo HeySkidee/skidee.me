@@ -1,3 +1,12 @@
+To start using this project, follow these steps:
+
+1. Clone the repository: `git clone https://github.com/HeySkidee/skidee.me.git`
+2. Navigate to the project directory: `cd skidee.me`
+3. Install dependencies: `npm install`
+4. run `npm run dev` to run the app in the development mode. 
+5. Open http://localhost:3000 to view it in your browser.
+
+
 ### Active Links: 
 
 - Website: [skidee.me](https://HeySkidee.now.sh)
