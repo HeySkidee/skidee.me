@@ -1,4 +1,4 @@
-To start using this project, follow these steps:
+Run this project locally by following these steps:
 
 1. Clone the repository: `git clone https://github.com/HeySkidee/skidee.me.git`
 2. Navigate to the project directory: `cd skidee.me`
