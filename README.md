@@ -1,18 +1,18 @@
 ### Active Links: 
 
-- Website: https://skidee.me
-- Resume: https://skidee/me/resume
-- Win10 Optimization Guide: https://skidee.me/win10
-- Discord: https://skidee.me/discord
-- Hey Skidee: https://skidee.me/HeySkidee
-- Songs playlist (YT): https://skidee.me/music
-- Spotify: https://skidee.me/spotify
+- Website: [skidee.me](https://HeySkidee.now.sh)
+- Resume: [skidee.me/resume]()
+- Win10 Optimization Guide: [/win10](https://skidee.notion.site/Ultimate-Win10-Optimization-Guide-5b4572fd4e17454dbde8375bae1829d1?pvs=74)
+- Discord: [/discord](https://discord.com/invite/JcPS3VD8CP)
+- Hey Skidee: [/HeySkidee](https://www.youtube.com/@HeySkidee)
+- songs on YT: [skidee.me/music](https://www.youtube.com/playlist?list=PLERL7JQTX_2HdaTwGGw0YjkjCCjL2bEB6)
+- songs on spotify: [/spotify](https://spoti.fi/3NO5Die)
 
 <hr width="30%">
 
-- Tutel Meme: https://skidee.me/tutel
-- nuxerd/n: https://skidee.me/n
-- Jet Accounts: https://skidee.me/jet
-- Discord Jet: https://skidee.me/emojis
-- Beats: https://skidee.me/beats
-- Learning resources / the sauce: https://skidee.me/s
+- Tutel Meme: [/tutel](https://heyskidee.vercel.app/tutel)
+- nuxerd/n: [skidee.me/n](https://nuxerd.vercel.app)
+- Jet Accounts: [/jet](https://jetaccounts.blogspot.com/)
+- Discord Jet: [/emosjis](https://discordjet.blogspot.com/)
+- Beats: [/beats]()
+- Learning resources / the sauce: [skidee.me/s]()
