@@ -15,18 +15,16 @@ This blog is made using Next.js
 
   **npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/basics-final"**
 
-after running the command, a new folder named **nextjs-blog** will appear.
+- after that, a new folder named **nextjs-blog** will appear.
 
 ### Step 3 :
 
 - cd into that folder using **cd nextjs-blog** command
-- Then run **npm run dev** command to launch the app.
+- Run the **npm run dev** command to launch the app.
 
-to check if its working, open [http://localhost:3000](http://localhost:3000/) in your browser.
+- to check if its working, open [http://localhost:3000](http://localhost:3000/) in your browser.
 
-if you've done all previous steps correctly, the app should be running now.
-
-Congratulations! You just made a blogging website in 2 mins. Now you just have to edit the content, create posts, and host the app.
+- Congratulations! You just made a blogging website in 2 mins. Now you just have to edit the content, create posts, and host the app.
 
 For hosting the app for free. Follow the tutorial given below :
 
