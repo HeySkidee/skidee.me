@@ -1,5 +1,5 @@
 ---
-title: "How I made this blogging website in 5 mins!"
+title: "How I Made This Blogging Website in 5 Mins!"
 date: "2022-04-14"
 ---
 
@@ -15,18 +15,18 @@ This blog is made using Next.js
 
   **npx create-next-app nextjs-blog --use-npm --example "https://github.com/vercel/next-learn/tree/master/basics/basics-final"**
 
-after running the command a new folder named **nextjs-blog** will appear.
+after running the command, a new folder named **nextjs-blog** will appear.
 
 ### Step 3 :
 
 - cd into that folder using **cd nextjs-blog** command
-- Then, run **npm run dev** command to run the app.
+- Then run **npm run dev** command to launch the app.
 
-to check if its working. Open [http://localhost:3000](http://localhost:3000/) from your browser.
+to check if its working, open [http://localhost:3000](http://localhost:3000/) in your browser.
 
-if you've done all previous steps correctly the app should be running now.
+if you've done all previous steps correctly, the app should be running now.
 
-congrats you just made a blogging website in 2 mins. now you just have to edit the content, create posts and host the app.
+Congratulations! You just made a blogging website in 2 mins. Now you just have to edit the content, create posts, and host the app.
 
 For hosting the app for free. Follow the tutorial given below :
 
@@ -38,12 +38,12 @@ We will be hosting our blog using github and vercel.
 
 ### Step 1 :
 
-- Create an account on [GitHub](https://github.com/) (if you don't have one).
+- Create an account on [GitHub](https://github.com/) if you don't already have one.
 - Create a new repository :
   
   ![creating a new repo](https://cdn.discordapp.com/attachments/716523839634407436/955440044678733864/unknown.png)
 
-  name the repo, keeping it private or public is personal prefrence.
+  name the repo, keeping it private or public is a personal prefrence.
 
   ![repo name, visibility](https://cdn.discordapp.com/attachments/716523839634407436/964084863214944287/1.png)
 
@@ -56,7 +56,7 @@ We will be hosting our blog using github and vercel.
 
 - Create an account on [Vercel](https://vercel.com) using github.
   
-- Open [Vercel dashboard](https://vercel.com/dashboard) and make a new project.
+- Open the [Vercel dashboard](https://vercel.com/dashboard) and make a new project.
   
 - Import the project
   
@@ -80,4 +80,4 @@ I covered everything in a concise way. other than that you can take a look at th
 
 Facing any issues?
 
-Feel free to contact me on [twitter](https://twitter.com/HeySkidee).
+Feel free to contact me on [twitter](https://twitter.com/Skidee24).

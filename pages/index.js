@@ -11,19 +11,15 @@ export default function Home({ allPostsData }) {
       <Head>
         <title>{siteTitle}</title>
       </Head>
+
       <section className={utilStyles.headingMd}>
         <p>
           
           I like making random stuff and learning new things
 
         </p>
-        {/* <p>
-          I'm active on <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, I tweet about my learnings throughout the process and share some cool resources.
-          <br></br>
-          Checkout my projects on <a href="https://github.com/HeySkidee" target="_blank">Github</a>.
-          And feel free to join the community on <a href='https://skidee.me/discord' target="_blank">Discord</a>.
-        </p> */}
       </section>
+
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
@@ -43,11 +39,7 @@ export default function Home({ allPostsData }) {
         <h2 className={utilStyles.headingLg}>Links</h2>
         <p>
           <a href="https://github.com/HeySkidee" target="_blank">Github</a>, <a href="https://stackoverflow.com/users/13892499/skidee" target="_blank">Stackoverflow</a>, <a href='https://www.youtube.com/@HeySkidee' target="_blank">YouTube</a>
-          
-          {/* <a href="https://github.com/HeySkidee" target="_blank">Github</a>, <a href="https://twitter.com/HeySkidee" target="_blank">Twitter</a>, <a href='https://www.instagram.com/HeySkidee' target="_blank">Instagram</a>, <a href='https://skidee.me/HeySkidee' target="_blank">YouTube</a>, <a href='https://soundcloud.com/HeySkidee' target="_blank">SoundCloud</a>, <a href='https://skidee.me/discord' target="_blank">Discord</a>. */}
         </p>
-
-
       </section>
 
     </Layout>
